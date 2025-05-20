@@ -10,7 +10,7 @@ function Footer() {
           {/* Brand */}
           <div className="mb-4 md:mb-0">
             <Link to="/" className="text-white hover:text-white">
-              <h2 className="text-xl font-bold">StarkNet Visualized</h2>
+              <h2 className="text-xl font-bold">Starknet Visualized</h2>
             </Link>
             <p className="text-gray-400 mt-1">© {new Date().getFullYear()} - Educational Resource</p>
           </div>
@@ -23,7 +23,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              StarkNet Docs
+              Starknet Docs
             </a>
             <a 
               href="https://book.cairo-lang.org" 

@@ -10,7 +10,7 @@ function Header() {
           {/* Logo/Title Section */}
           <div>
             <Link to="/" className="text-white hover:text-white">
-              <h1 className="text-2xl font-bold">StarkNet Visualized</h1>
+              <h1 className="text-2xl font-bold">Starknet Visualized</h1>
               <p className="text-indigo-200 mt-1 text-sm">Understanding Cairo Smart Contracts From The Inside Out</p>
             </Link>
           </div>

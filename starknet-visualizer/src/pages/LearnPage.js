@@ -45,12 +45,12 @@ function LearnPage() {
   return (
     <div>
       <h1 className="text-3xl font-bold text-gray-800 mb-6">
-        Learn StarkNet Smart Contracts
+        Learn Starknet Smart Contracts
       </h1>
       
       <p className="text-lg text-gray-600 mb-8">
         Master Cairo smart contracts through interactive visualizations. Each lesson builds upon the previous one 
-        to give you a complete understanding of how StarkNet works.
+        to give you a complete understanding of how Starknet works.
       </p>
       
       {/* Learning Path */}

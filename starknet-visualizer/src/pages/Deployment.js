@@ -110,7 +110,7 @@ mod SimpleStorage {
       <div className="bg-white rounded-lg shadow-md p-6 mb-8">
         <h2 className="text-xl font-bold text-gray-800 mb-4">📚 What You'll Learn</h2>
         <p className="text-gray-600 mb-4">
-          This lesson covers the complete process of deploying a Cairo smart contract to StarkNet - 
+          This lesson covers the complete process of deploying a Cairo smart contract to Starknet - 
           from writing the code to having it live on the blockchain. You'll learn about compilation, 
           testing, account creation, and the deployment process.
         </p>
@@ -180,7 +180,7 @@ mod SimpleStorage {
                 <h4 className="font-semibold text-blue-800 mb-2">📖 Contract Breakdown:</h4>
                 <ul className="list-disc pl-6 text-blue-700 space-y-1 text-sm">
                   <li><code className="bg-blue-100 px-1 rounded">#[starknet::interface]</code> - Defines the contract's public interface</li>
-                  <li><code className="bg-blue-100 px-1 rounded">#[starknet::contract]</code> - Marks the module as a StarkNet contract</li>
+                  <li><code className="bg-blue-100 px-1 rounded">#[starknet::contract]</code> - Marks the module as a Starknet contract</li>
                   <li><code className="bg-blue-100 px-1 rounded">#[storage]</code> - Defines persistent storage variables</li>
                   <li><code className="bg-blue-100 px-1 rounded">#[abi(embed_v0)]</code> - Implements the interface for external calls</li>
                 </ul>
@@ -325,7 +325,7 @@ mod SimpleStorage {
                   rel="noopener noreferrer"
                   className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors inline-block"
                 >
-                  Open StarkNet Faucet →
+                  Open Starknet Faucet →
                 </a>
               </div>
               
@@ -411,7 +411,7 @@ mod SimpleStorage {
             </p>
           </div>
           <Link 
-            to="/simple-storage-one" 
+            to="/storageone" 
             className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors"
           >
             Next: Simple Storage Part 1 →
